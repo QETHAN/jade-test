@@ -1,0 +1,25 @@
+{
+  "name": "jade-test",
+  "version": "0.0.0",
+  "description": "Performance comparison between pre-compiled Jade and pre-compiled Handlebars",
+  "main": "index.js",
+  "scripts": {
+    "test": "node-dev dev.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jiyinyiyong/jade-test.git"
+  },
+  "keywords": [
+    "jade",
+    "handlebars"
+  ],
+  "author": "jiyinyiyong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jiyinyiyong/jade-test/issues"
+  },
+  "devDependencies": {
+    "calabash": "~0.1.0"
+  }
+}
