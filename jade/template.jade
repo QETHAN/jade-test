@@ -1,0 +1,13 @@
+
+p
+  if title
+    h4.title= title
+  if list
+    ul
+      each item in list
+        li= item
+  if map
+    p
+      span= key
+      | :
+      span= value

@@ -1,0 +1,20 @@
+
+<p>
+  {{#if title}}
+    <h4>{{title}}</h4>
+  {{/if}}
+  {{#if list}}
+    {{#each list}}
+      <li>{{this}}</li>
+    {{/each}}
+  {{/if}}
+  {{#if map}}
+    {{#each map}}
+      <p>
+        <span>{{key}}</span>
+        :
+        <span>{{value}}</span>
+      </p>
+    {{/each}}
+  {{/if}}
+</p>
